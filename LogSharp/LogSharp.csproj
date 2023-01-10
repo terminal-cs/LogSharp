@@ -6,8 +6,14 @@
     <Nullable>enable</Nullable>
     <DebugType>none</DebugType>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Description>A little bare-bones logging class for C# that is simple and stylish.</Description>
+    <Description>A tinybare-bones logging class for C# that is simple and stylish.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>Terminal-cs</Authors>
+    <PackageProjectUrl>github.com/terminal-cs/LogSharp</PackageProjectUrl>
+    <RepositoryUrl>github.com/terminal-cs/LogSharp.git</RepositoryUrl>
+    <PackageTags>debug;debugger;log;logger;help;helper</PackageTags>
+    <PackageLicenseExpression>GPL-2.0-only</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
