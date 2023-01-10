@@ -14,7 +14,7 @@
     <PackageTags>debug;debugger;log;logger;help;helper</PackageTags>
     <PackageLicenseExpression>GPL-2.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageIcon>TinyMath.png</PackageIcon>
+    <PackageIcon>LogSharp.png</PackageIcon>
     <Version>1.0.1</Version>
   </PropertyGroup>
 
@@ -27,7 +27,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\TinyMath\TinyMath.png">
+    <None Include="..\LogSharp.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
