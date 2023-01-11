@@ -58,7 +58,7 @@
 			}
 			if (Kind == LoggerKind.JustStore || Kind == LoggerKind.Both)
 			{
-				File.AppendAllText(StorePath, $"[ {S} ] {Category} > {Message}");
+				File.AppendAllText(StorePath, $"[ {S} ] {Category} > {Message}\n");
 			}
 		}
 
